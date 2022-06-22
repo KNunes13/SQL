@@ -1,5 +1,5 @@
 #Total number of shows and movies, unspecified#
-Select Count(mov_title) from movies 
+select count(mov_title) from movies 
 union
 select count(show_title) from shows;
 
